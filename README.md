@@ -27,7 +27,7 @@ there is a glitch on discord, where if you send one message, and if you send ano
 this plugin abuses that. the only issue was that the nonce trick only "hides" the message on the client's side temporarily. once you refresh, the message will reappear. therefore, a way to circumvent this is to delete both messages after sending the initial and block message. this will ensure that the message would have been removed permanently and client-side.
 
 ## settings:
-`Enable Await Deletion`
+### Enable Await Deletion
 there are 2 requests to delete a message in this plugin.
 now, they are right beside each other, seen below
 
@@ -41,7 +41,7 @@ now, if we enable await deletion, we wait for deletemsg1 to complete first, then
 if await deletion is disabled, we run deletemsg1, go right to the sleep 100ms delay and run deletemsg2, without waiting for deletemsg1 to complete.
 this allows the script to be faster, but it is safer to use await.
 
-`Delete Interval`
+### Delete Interval
 there are 2 requests to delete a message in this plugin.
 now, they are right beside each other, seen below
 
@@ -53,5 +53,5 @@ deletemsg2()
 now, the delete interval is the number in the sleep function.
 e.g. if DeleteInterval is 120ms, sleep(120) is called.
 
-`Block Message`
+### Block Message
 this will be the text in place of the old message that you wanted to delete. it is necessary for this plugin to work.
