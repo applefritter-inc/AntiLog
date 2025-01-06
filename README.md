@@ -1,7 +1,7 @@
 # AntiLog
 a vencord plugin to delete messages whilst bypassing vencord's messagelogger so that your message will not get logged
 
-### current stable version: v1.1.1
+### current stable version: v1.2
 
 ## usage
 1. right click on the message you want to delete

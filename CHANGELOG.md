@@ -1,5 +1,8 @@
 # changelog
 
+## v1.2
+add enable/disable await deletes option
+
 ## v1.1.1
 change setting var name to blockMessage
 
