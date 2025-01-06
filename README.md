@@ -28,7 +28,7 @@ this plugin abuses that. the only issue was that the nonce trick only "hides" th
 
 ## settings:
 ### Enable Await Deletion
-there are 2 requests to delete a message in this plugin.
+there are 2 requests to delete a message in this plugin. \
 now, they are right beside each other, seen below
 
 ```tsx
@@ -38,11 +38,11 @@ deletemsg2()
 ```
 now, if we enable await deletion, we wait for deletemsg1 to complete first, then sleep for 100ms, before continuing to run deletemsg2.
 
-if await deletion is disabled, we run deletemsg1, go right to the sleep 100ms delay and run deletemsg2, without waiting for deletemsg1 to complete.
+if await deletion is disabled, we run deletemsg1, go right to the sleep 100ms delay and run deletemsg2, without waiting for deletemsg1 to complete. \
 this allows the script to be faster, but it is safer to use await.
 
 ### Delete Interval
-there are 2 requests to delete a message in this plugin.
+there are 2 requests to delete a message in this plugin. \
 now, they are right beside each other, seen below
 
 ```tsx
@@ -50,7 +50,7 @@ deletemsg1()
 sleep(100)
 deletemsg2()
 ```
-now, the delete interval is the number in the sleep function.
+now, the delete interval is the number in the sleep function. \
 e.g. if DeleteInterval is 120ms, sleep(120) is called.
 
 ### Block Message
