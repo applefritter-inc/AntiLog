@@ -18,6 +18,7 @@ now, run this
 pnpm build
 pnpm inject
 ```
+then, use the injector that appears to inject vencord into your discord client.
 
 ## how does this work
 there is a glitch on discord, where if you send one message, and if you send another message with the nonce set as the other message's id, the new message will overlap the old message, causing the old message to disappear on the client side. \
