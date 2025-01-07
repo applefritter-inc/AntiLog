@@ -3,6 +3,8 @@ a vencord plugin to delete messages whilst bypassing vencord's messagelogger so 
 
 ### current stable version: v1.2
 
+*can someone help get a better SVG for the AntiLog icon thanks pls dm me if u do get it*
+
 ## usage
 1. right click on the message you want to delete
 2. there will be an option called "AntiLog Message". click that and your message will be deleted, replaced by a block prompt that the other person's messagelogger will see, and not your original message
