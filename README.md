@@ -1,3 +1,5 @@
+* please star the project, that would help me out :> *
+
 # AntiLog
 a vencord plugin to delete messages whilst bypassing vencord's messagelogger so that your message will not get logged
 
