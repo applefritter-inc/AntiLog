@@ -1,5 +1,8 @@
 _please star the project, that would help me out :>_
 
+_if you would like to support me further, donate to my ko-fi here!_ \
+https://ko-fi.com/appleflyer
+
 # AntiLog
 a vencord plugin to delete messages whilst bypassing vencord's messagelogger so that your message will not get logged
 
