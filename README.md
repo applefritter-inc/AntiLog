@@ -20,8 +20,11 @@ git clone https://github.com/Vendicated/Vencord
 cd Vencord
 pnpm install --frozen-lockfile
 ```
-now, inside the vencord directory, go to the `src/plugins` folder and make a folder named `AntiLog` \
-then, move the main.tsx file inside the `AntiLog` folder \
+now, inside the vencord directory, go to the `src/plugins` folder and make a folder named `antiLog` \
+<sub>it MUST be named `antiLog` and NOT `AntiLog`</sub>
+
+then, move the main.tsx file inside the `antiLog` folder
+
 now, run this
 ```sh
 pnpm build
