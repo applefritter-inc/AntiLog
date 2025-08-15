@@ -23,7 +23,7 @@ pnpm install --frozen-lockfile
 now, inside the vencord directory, go to the `src/plugins` folder and make a folder named `antiLog` \
 <sub>it MUST be named `antiLog` and NOT `AntiLog`</sub>
 
-then, move the main.tsx file inside the `antiLog` folder
+then, move the index.tsx file inside the `antiLog` folder
 
 now, run this
 ```sh
